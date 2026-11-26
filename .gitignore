@@ -1,0 +1,7 @@
+node_modules/
+server/runtime-data/*.json
+server/runtime-data/*.tmp
+.env
+.DS_Store
+Thumbs.db
+*.log

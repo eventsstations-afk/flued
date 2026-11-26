@@ -1,0 +1,26 @@
+{
+  "name": "christmas-feud-ultimate-game-show",
+  "version": "2.0.0",
+  "description": "CHRISTMAS FEUD – The Ultimate Christmas Game Show. Online multiplayer React + Three.js 3D game show with 70/100/150 all-Christmas rounds across 15 categories, private manual-scoring Fast Money, 4-role RBAC, and Administrator-only Answer-Key PDF exports.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/qa-suite.js"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.0"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "license": "MIT"
+}
